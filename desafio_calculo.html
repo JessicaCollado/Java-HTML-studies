@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<h3>Vamos colocar Álcool ou Gasolina?</h3>
+<br>
+
+<script>
+
+    var tanque = 40
+
+    var caminhoGasolina = 480
+    var consumoGasolina = caminhoGasolina/tanque
+
+    var caminhoAlcool = 300
+    var consumoAlcool = caminhoAlcool/tanque 
+
+    document.write( 'O consumo de gasolina é de ' + consumoGasolina  + ' km/l <br>' );
+    document.write( 'O consumo de Álcool é ' + consumoAlcool + ' km/l<br><br>')
+
+    var diferença = consumoGasolina - consumoAlcool
+
+    document.write('Como vimos acima o consumo de gasolina é mais econômico! ' + 'Rodando ' + diferença + ' km/l a mais que colocando álcool!' )
+
+
+</script>
